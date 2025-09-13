@@ -1,0 +1,16 @@
+{
+  "sample_output": [
+    {
+      "ticket_id": "TKT-2025-001",
+      "title": "VPN connection dropping intermittently for all remote users",
+      "assigned_agent_id": "agent_001",
+      "rationale": "Assigned to Sarah Chen (agent_001) based on her strong skills in 'Networking' (9) and 'VPN_Troubleshooting' (8) and her initial low workload."
+    },
+    {
+      "ticket_id": "TKT-2025-004",
+      "title": "New laptop fails to boot into OS after initial setup",
+      "assigned_agent_id": "agent_006",
+      "rationale": "Assigned to Emily Johnson (agent_006) for her expertise in 'Hardware_Diagnostics' (9) and 'Laptop_Repair' (8), combined with her lower workload."
+    }
+  ]
+}
