@@ -1,0 +1,234 @@
+{
+  "agents": [
+    {
+      "agent_id": "agent_001",
+      "name": "Sarah Chen",
+      "skills": {
+        "Networking": 9,
+        "Linux_Administration": 7,
+        "Cloud_AWS": 5,
+        "VPN_Troubleshooting": 8,
+        "Hardware_Diagnostics": 3
+      },
+      "current_load": 2,
+      "availability_status": "Available",
+      "experience_level": 7
+    },
+    {
+      "agent_id": "agent_002",
+      "name": "Alex Rodriguez",
+      "skills": {
+        "Windows_Server_2022": 9,
+        "Active_Directory": 10,
+        "Virtualization_VMware": 8,
+        "Software_Licensing": 6
+      },
+      "current_load": 4,
+      "availability_status": "Available",
+      "experience_level": 12
+    },
+    {
+      "agent_id": "agent_003",
+      "name": "Michael Lee",
+      "skills": {
+        "Network_Security": 9,
+        "Database_SQL": 8,
+        "Firewall_Configuration": 9,
+        "Identity_Management": 7,
+        "SaaS_Integrations": 6
+      },
+      "current_load": 3,
+      "availability_status": "Available",
+      "experience_level": 10
+    },
+    {
+      "agent_id": "agent_004",
+      "name": "Jessica Williams",
+      "skills": {
+        "Microsoft_365": 10,
+        "SharePoint_Online": 9,
+        "PowerShell_Scripting": 8,
+        "Endpoint_Management": 7,
+        "Windows_OS": 9
+      },
+      "current_load": 1,
+      "availability_status": "Available",
+      "experience_level": 5
+    },
+    {
+      "agent_id": "agent_005",
+      "name": "David Gupta",
+      "skills": {
+        "Cloud_Azure": 9,
+        "DevOps_CI_CD": 8,
+        "Kubernetes_Docker": 7,
+        "Python_Scripting": 9
+      },
+      "current_load": 2,
+      "availability_status": "Available",
+      "experience_level": 6
+    },
+    {
+      "agent_id": "agent_006",
+      "name": "Emily Johnson",
+      "skills": {
+        "Hardware_Diagnostics": 9,
+        "Mac_OS": 8,
+        "Printer_Troubleshooting": 9,
+        "Laptop_Repair": 8,
+        "Network_Cabling": 6
+      },
+      "current_load": 3,
+      "availability_status": "Available",
+      "experience_level": 8
+    },
+    {
+      "agent_id": "agent_007",
+      "name": "Chris Davis",
+      "skills": {
+        "Voice_VoIP": 10,
+        "Network_Monitoring": 8,
+        "Switch_Configuration": 9,
+        "Routing_Protocols": 8,
+        "Cisco_IOS": 7
+      },
+      "current_load": 4,
+      "availability_status": "Available",
+      "experience_level": 11
+    },
+    {
+      "agent_id": "agent_008",
+      "name": "Laura Martinez",
+      "skills": {
+        "Endpoint_Security": 9,
+        "Antivirus_Malware": 10,
+        "Phishing_Analysis": 8,
+        "Security_Audits": 7,
+        "SIEM_Logging": 6
+      },
+      "current_load": 2,
+      "availability_status": "Available",
+      "experience_level": 9
+    },
+    {
+      "agent_id": "agent_009",
+      "name": "James Brown",
+      "skills": {
+        "Database_SQL": 9,
+        "ETL_Processes": 8,
+        "Data_Warehousing": 7,
+        "PowerBI_Tableau": 6,
+        "Linux_Administration": 5
+      },
+      "current_load": 1,
+      "availability_status": "Available",
+      "experience_level": 4
+    },
+    {
+      "agent_id": "agent_010",
+      "name": "Michelle Kim",
+      "skills": {
+        "SaaS_Integrations": 8,
+        "API_Troubleshooting": 9,
+        "Web_Server_Apache_Nginx": 7,
+        "DNS_Configuration": 6,
+        "SSL_Certificates": 7
+      },
+      "current_load": 3,
+      "availability_status": "Available",
+      "experience_level": 6
+    }
+  ],
+  "tickets": [
+    {
+      "ticket_id": "TKT-2025-001",
+      "title": "VPN connection dropping intermittently for all remote users",
+      "description": "Users connecting via the corporate VPN client are experiencing frequent, random disconnections. This issue seems to be widespread and is affecting multiple departments, particularly those using resource-intensive applications. Users report seeing 'VPN tunnel failed' or 'Authentication error' messages before being disconnected. A brief check of the network logs shows a high volume of dropped packets originating from the VPN concentrator. We have already tried restarting the VPN service and updating the client software on a few test machines, but the issue persists.",
+      "creation_timestamp": 1757827200
+    },
+    {
+      "ticket_id": "TKT-2025-002",
+      "title": "Email access problem in Outlook for one specific user",
+      "description": "A single user, Jane Smith, is unable to access her email in Microsoft Outlook 365. The application keeps prompting for her password in a continuous loop, but it never accepts it. She can, however, log into her account and access email via the web version (Outlook on the web). We've already tried clearing the credential manager, repairing the Office installation, and even reinstalling Outlook. The issue seems to be localized to her desktop client and possibly related to cached credentials or authentication tokens.",
+      "creation_timestamp": 1757828000
+    },
+    {
+      "ticket_id": "TKT-2025-003",
+      "title": "Access denied to shared drive on Linux server after permission change",
+      "description": "A group of developers is reporting that they can no longer access a shared project directory on the new Linux development server. The `ls -l` command shows that their user group permissions have been changed from read/write to read-only. This change was implemented yesterday as part of a security audit, but it was not supposed to affect this specific group. They need full read/write access to commit code changes. We need to verify if the new permissions are correct or if this was an error during the audit process.",
+      "creation_timestamp": 1757828500
+    },
+    {
+      "ticket_id": "TKT-2025-004",
+      "title": "New laptop fails to boot into OS after initial setup",
+      "description": "A brand new laptop (Model: XPS 15) received today is stuck in a boot loop. The device was configured with the standard corporate image, but after the first reboot, it hangs at the 'Preparing Automatic Repair' screen and then reboots again. We have attempted to boot into the BIOS and check the boot order, which appears correct. The SSD seems to be recognized. This is a critical issue as the user needs this laptop for an important presentation tomorrow. We need to diagnose the boot issue and potentially recover or reinstall the OS.",
+      "creation_timestamp": 1757829000
+    },
+    {
+      "ticket_id": "TKT-2025-005",
+      "title": "Employee unable to log into HR portal using SSO",
+      "description": "An employee, who was recently hired, cannot log into our HR portal. The portal uses a Single Sign-On (SSO) integration with our Active Directory. Other employees can log in without any issue. The user is able to log into other services using their AD credentials. The error message on the HR portal is 'Error 403: Forbidden - SAML token not valid'. This suggests a problem with the user's account permissions or a configuration issue on the SSO provider side. We need to check the user's AD group memberships and SAML attribute mappings.",
+      "creation_timestamp": 1757829500
+    },
+    {
+      "ticket_id": "TKT-2025-006",
+      "title": "Slow performance of main database server",
+      "description": "The main production database server (SQL Server) is experiencing extremely slow query execution times, causing delays across all business applications. The issue started this morning and is worsening. Monitoring tools show high CPU utilization and I/O wait times. A quick check reveals no new large queries or recent schema changes. This could be a resource contention issue, poor query optimization, or a hardware problem with the storage array. This is a business-critical issue that needs immediate attention.",
+      "creation_timestamp": 1757830000
+    },
+    {
+      "ticket_id": "TKT-2025-007",
+      "title": "Corporate printer in marketing department not printing",
+      "description": "The shared network printer located in the Marketing department is not responding to any print jobs. Users can see the printer in the network list but jobs sent to it are stuck in the print queue on their computers with an error status. We've tried power cycling the printer and checking the network cable. The printer's IP address is reachable, but the web interface is unresponsive. This is a new printer model and may have a configuration issue or a driver problem.",
+      "creation_timestamp": 1757830500
+    },
+    {
+      "ticket_id": "TKT-2025-008",
+      "title": "User account locked due to suspicious login attempts",
+      "description": "An employee's Active Directory account has been locked. The user reported receiving multiple account lockout notifications on their phone. A review of the security logs indicates a high volume of failed login attempts from an unknown IP address, suggesting a potential brute-force attack. We need to investigate the source of the attack, clear the account lockout, and advise the user to change their password immediately. The account must be unlocked securely without compromising security.",
+      "creation_timestamp": 1757831000
+    },
+    {
+      "ticket_id": "TKT-2025-009",
+      "title": "New employee laptop setup request",
+      "description": "Please prepare a new laptop for an incoming employee. The laptop needs to be configured with the standard corporate image, which includes Windows 11 Enterprise, Microsoft 365 suite, and standard security software. The user will require access to the shared HR drive and general network resources. The new employee starts next Monday, so this task has a clear deadline but is not urgent at this moment. The laptop model is a Dell Latitude 7420.",
+      "creation_timestamp": 1757831500
+    },
+    {
+      "ticket_id": "TKT-2025-010",
+      "title": "External website hosted on Azure is unreachable",
+      "description": "Our main corporate website, hosted on an Azure App Service, is showing a '503 Service Unavailable' error. We have checked the Azure portal, and the service appears to be running, but we cannot access the site from any location. There were no recent deployments or configuration changes. This could be an issue with the underlying infrastructure, a misconfigured security group, or a problem with the web server itself. This is a public-facing website and its downtime is affecting our business image.",
+      "creation_timestamp": 1757832000
+    },
+    {
+      "ticket_id": "TKT-2025-011",
+      "title": "Phishing email reported by employee",
+      "description": "An employee received a suspicious email impersonating our CEO asking for sensitive company information. The user recognized it as a phishing attempt and forwarded it to our security team. We need to analyze the email headers and content to determine its origin, block the sender, and run a company-wide scan to check if any other employees have received similar emails. This is a high-priority security issue that requires immediate action to prevent a data breach.",
+      "creation_timestamp": 1757832500
+    },
+    {
+      "ticket_id": "TKT-2025-012",
+      "title": "Samba share access issue on new macOS Big Sur",
+      "description": "A user with a new MacBook running macOS Big Sur cannot connect to a long-standing Samba network share. All other users on Windows and older macOS versions can connect without issues. The user receives a 'The server may not exist or is currently unavailable' error. This seems to be a compatibility issue with the new macOS version and the older Samba server configuration. We need to check the Samba logs and potentially update the configuration to support newer clients.",
+      "creation_timestamp": 1757833000
+    },
+    {
+      "ticket_id": "TKT-2025-013",
+      "title": "Request for a new user account on the Jenkins server",
+      "description": "A new developer requires an account on our Jenkins CI/CD server with read-only access to a specific project. Please create the user account and assign the correct permissions. This is a standard request and can be handled during normal business hours. The user's name is Mark Davis and his email is mark.davis@company.com.",
+      "creation_timestamp": 1757833500
+    },
+    {
+      "ticket_id": "TKT-2025-014",
+      "title": "Black screen with blinking cursor on desktop PC",
+      "description": "A user's desktop PC boots up to a black screen with a blinking cursor in the top-left corner. The POST screen appears normally, but the OS (Windows 10) fails to load. This suggests a problem with the boot loader or the main OS partition. The user has critical data on the drive that needs to be recovered before any reinstallation attempt. We need to diagnose the boot issue and assess the data recovery options.",
+      "creation_timestamp": 1757834000
+    },
+    {
+      "ticket_id": "TKT-2025-015",
+      "title": "Firewall ruleset change request for new application",
+      "description": "The development team needs to deploy a new web application that requires specific ports to be opened on the corporate firewall. The application uses ports 8080 (HTTP) and 8443 (HTTPS) and needs to be accessible from both the internal network and specific external IP ranges for partner access. We need to review the security implications and implement the firewall rules according to our security policies. This change must be documented and approved by the security team.",
+      "creation_timestamp": 1757834500
+    }
+  ]
+}
